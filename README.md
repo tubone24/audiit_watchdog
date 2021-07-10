@@ -1,4 +1,6 @@
-# openvpn_audiit_watchdog
+# Audit Watchdog
+
+> It is a tool that can monitor SSH logins and OpenVPN connections to your server and send warnings to Slack.
 
 ## How to use(CentOS7)
 
