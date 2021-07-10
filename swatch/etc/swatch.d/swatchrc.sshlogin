@@ -1,0 +1,2 @@
+watchfor /.*New session .*/
+pipe "/etc/swatch.d/ssh_login.sh"

@@ -1,0 +1,10 @@
+[Unit]
+Description = OpenVPN Init
+
+[Install]
+WantedBy = multi-user.target
+
+[Service]
+ExecStart = /etc/swatch.d/wswatch_openvpn.sh
+Restart = always
+Type = simple

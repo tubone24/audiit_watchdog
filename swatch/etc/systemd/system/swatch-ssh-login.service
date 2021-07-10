@@ -1,0 +1,10 @@
+[Unit]
+Description = SSH Login
+
+[Install]
+WantedBy = multi-user.target
+
+[Service]
+ExecStart = /etc/swatch.d/wswatch_ssh.sh
+Restart = always
+Type = simple
